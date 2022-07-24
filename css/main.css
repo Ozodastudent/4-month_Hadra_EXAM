@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.cards {
+  width: 33.3%;
+  height: 100%;
+  overflow: auto;
+  padding: 16px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(61, 59, 59);
+  border-right: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(48, 44, 44);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+.card {
+  border: 1px solid #eee;
+  padding: 16px;
+  margin-bottom: 16px;
+  color: #000c40;
+  background-color: #f0f2f0;
+  box-shadow: 0 0 3px #adaeb6;
+  border-radius: 10px;
+}
+.card:hover {
+  background: #000c40;
+  box-shadow: #eee;
+  color: #f0f2f0;
+  cursor: pointer;
+}
+.id {
+  font-size: 42px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-align: end;
+  margin-right: 28px;
+}
+.name {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.username {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+.email {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+.address {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.street {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.suite {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.city {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.zipcode {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+}
+.geo {
+  /* text-decoration: none; */
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  /* font-style: italic; */
+}
+.phone {
+  margin-top: 16px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+.website {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  /* font-style: italic; */
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.catchPhrase {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.bs {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
